@@ -16,7 +16,6 @@ img {
 .segundo-container {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-; */
   align-items: left;
   flex-wrap: wrap;
   min-height: calc(100vh - 144px);
@@ -95,18 +94,12 @@ img {
     bottom: 0;
     right: 0;
   }
-  
-  img {
-
-  }
 
   img.banner {
     margin: 0 auto;
     display: block;
     width: 700px;
     max-width: 100%
-
-    
   }
 
   img.whats {
@@ -115,6 +108,5 @@ img {
     right: 25px;
     top: 600px;
     z-index: 10;
-    
-
+    max-width: 100%;
 }
